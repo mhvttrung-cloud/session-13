@@ -46,7 +46,7 @@ alert(arr);
 // Tiến hành duyệt các phần tử và tìm ra phần tử có giá trị lớn nhất trong mảng và thực hiện in ra màn hình bằng alert()
 
 let it = +prompt("Hãy nhập một dãy số bất kỳ nào để tìm giá trị lớn nhất");
-let arrr = int.split("").map(Number);
+let arrr = it.split("").map(Number);
 let max = arrr[0];
     for (let i = 1;i < arrr.length; i++){
         if (arrr[i] > max ){
